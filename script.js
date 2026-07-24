@@ -1,1 +1,181 @@
+/* ===== Google Font ===== */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
 
+body{
+background:#f5f7fb;
+color:#222;
+}
+
+/* ===== Header ===== */
+
+header{
+position:sticky;
+top:0;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+background:#0f172a;
+color:#fff;
+z-index:1000;
+box-shadow:0 3px 10px rgba(0,0,0,.2);
+}
+
+.logo{
+font-size:30px;
+font-weight:700;
+}
+
+.logo span{
+color:#38bdf8;
+}
+
+nav{
+display:flex;
+gap:25px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-weight:500;
+transition:.3s;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+#menuBtn{
+display:none;
+background:#38bdf8;
+border:none;
+padding:10px 15px;
+border-radius:8px;
+cursor:pointer;
+font-size:20px;
+}
+
+/* ===== Hero ===== */
+
+.hero{
+padding:80px 10%;
+text-align:center;
+background:linear-gradient(135deg,#2563eb,#0ea5e9);
+color:white;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:35px;
+}
+
+.search{
+display:flex;
+justify-content:center;
+gap:10px;
+flex-wrap:wrap;
+}
+
+.search input{
+width:420px;
+max-width:90%;
+padding:15px;
+border:none;
+border-radius:10px;
+font-size:17px;
+}
+
+.search button{
+padding:15px 25px;
+border:none;
+background:#0f172a;
+color:white;
+border-radius:10px;
+cursor:pointer;
+font-size:16px;
+transition:.3s;
+}
+
+.search button:hover{
+background:#111827;
+}
+
+/* ===== Cards ===== */
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+padding:60px 8%;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:18px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h2{
+color:#2563eb;
+margin-bottom:15px;
+}
+
+.card p{
+margin-bottom:20px;
+line-height:1.7;
+}
+
+.card a{
+text-decoration:none;
+color:#2563eb;
+font-weight:600;
+}
+
+/* ===== Footer ===== */
+
+footer{
+background:#0f172a;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:40px;
+}
+
+/* ===== Responsive ===== */
+
+@media(max-width:768px){
+
+nav{
+display:none;
+}
+
+#menuBtn{
+display:block;
+}
+
+.hero h1{
+font-size:34px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+}
