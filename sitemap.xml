@@ -3,39 +3,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/</loc>
+<loc>https://ajkumar839283-arch.github.io/ssc-wale/</loc>
+<changefreq>daily</changefreq>
+<priority>1.0</priority>
 </url>
 
 <url>
-<loc>https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/cgl.html</loc>
+<loc>https://ajkumar839283-arch.github.io/ssc-wale/cgl.html</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
 </url>
 
 <url>
-<loc>https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/chsl.html</loc>
+<loc>https://ajkumar839283-arch.github.io/ssc-wale/chsl.html</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
 </url>
 
 <url>
-<loc>https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/cpo.html</loc>
+<loc>https://ajkumar839283-arch.github.io/ssc-wale/cpo.html</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
 </url>
 
 <url>
-<loc>https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/mts.html</loc>
+<loc>https://ajkumar839283-arch.github.io/ssc-wale/mts.html</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
 </url>
 
 <url>
-<loc>https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/about.html</loc>
+<loc>https://ajkumar839283-arch.github.io/ssc-wale/about.html</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
 </url>
 
 <url>
-<loc>https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/contact.html</loc>
+<loc>https://ajkumar839283-arch.github.io/ssc-wale/contact.html</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
 </url>
 
 <url>
-<loc>https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/privacy.html</loc>
+<loc>https://ajkumar839283-arch.github.io/ssc-wale/privacy.html</loc>
+<changefreq>yearly</changefreq>
+<priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/disclaimer.html</loc>
+<loc>https://ajkumar839283-arch.github.io/ssc-wale/disclaimer.html</loc>
+<changefreq>yearly</changefreq>
+<priority>0.5</priority>
 </url>
 
 </urlset>
