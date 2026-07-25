@@ -1,3 +1,11 @@
+html, body{
+    width:100%;
+    overflow-x:hidden;
+}
+*{
+    max-width:100%;
+    box-sizing:border-box;
+}
 /* ===== Google Font ===== */
 *{
 margin:0;
@@ -20,7 +28,7 @@ top:0;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:18px 8%;
+padding:18px 20px;
 background:#0f172a;
 color:#fff;
 z-index:1000;
