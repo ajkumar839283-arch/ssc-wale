@@ -1,1 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SSC GK/GS Quiz | SSC Exam Hub</title>
 
+<link rel="stylesheet" href="style.css">
+
+<style>
+body{
+    font-family:Arial,sans-serif;
+    background:#f4f7fb;
+    margin:0;
+}
+
+.quiz-container{
+    max-width:900px;
+    margin:40px auto;
+    background:#fff;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
+}
+
+.quiz-header{
+    text-align:center;
+}
+
+.quiz-header h1{
+    color:#0b5ed7;
+    margin-bottom:10px;
+}
+
+.timer{
+    display:inline-block;
+    background:#dc3545;
+    color:#fff;
+    padding:10px 18px;
+    border-radius:6px;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.progress{
+    margin-top:20px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.question-box{
+    margin-top:30px;
+}
+
+.question{
+    font-size:22px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.option{
+    display:block;
+    padding:15px;
+    margin:12px 0;
+    border:2px solid #ddd;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.option:hover{
+    background:#eaf3ff;
+    border-color:#0b5ed7;
+}
+
+.buttons{
+    margin-top:30px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.buttons button{
+    padding:12px 25px;
+    border:none;
+    border-radius:6px;
+    background:#0b5ed7;
+    color:#fff;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.buttons button:hover{
+    background:#0849a6;
+}
+
+#result{
+    display:none;
+    text-align:center;
+    margin-top:30px;
+}
+
+#score{
+    font-size:28px;
+    color:green;
+    font-weight:bold;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h2>SSC Exam Hub</h2>
+</header>
+
+<div class="quiz-container">
+
+<div class="quiz-header">
+<h1>SSC GK/GS Quiz</h1>
+<p>25 Questions | 25 Minutes | 1 Mark Each</p>
+
+<div class="timer">
+Time Left:
+<span id="timer">25:00</span>
+</div>
+
+<div class="progress">
+Question <span id="currentQuestion">1</span> of 25
+</div>
+</div>
+
+<div class="question-box">
+
+<div class="question" id="question">
+Question will appear here...
+</div>
+
+<div id="options">
+</div>
+
+</div>
+
+<div class="buttons">
+
+<button onclick="previousQuestion()">Previous</button>
+
+<button onclick="nextQuestion()">Next</button>
+
+<button onclick="submitQuiz()">Submit Quiz</button>
+
+</div>
+
+<div id="result">
+<h2>Quiz Completed</h2>
+
+<p>Your Score</p>
+
+<div id="score">0 / 25</div>
+
+</div>
+
+</div>
+
+<script src="gkgs-quiz.js"></script>
+
+</body>
+</html>
