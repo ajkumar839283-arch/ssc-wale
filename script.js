@@ -34,3 +34,28 @@ document.querySelectorAll("a").forEach(link => {
 window.onload = () => {
   console.log("Welcome to SSC Exam Hub");
 };
+function searchExam(){
+
+let search=document.getElementById("searchBox").value.toLowerCase().trim();
+
+if(search==="cgl" || search==="ssc cgl"){
+window.location.href="cgl.html";
+}
+
+else if(search==="chsl" || search==="ssc chsl"){
+window.location.href="chsl.html";
+}
+
+else if(search==="cpo" || search==="ssc cpo"){
+window.location.href="cpo.html";
+}
+
+else if(search==="mts" || search==="ssc mts"){
+window.location.href="mts.html";
+}
+
+else{
+alert("Exam not found!");
+}
+
+}
