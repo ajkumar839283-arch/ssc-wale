@@ -278,7 +278,6 @@ answer:2
 }
 
 ];
-];
 let currentQuestion = 0;
 let score = 0;
 let userAnswers = new Array(questions.length).fill(null);
@@ -343,7 +342,7 @@ function previousQuestion(){
 
 }
 
-function submitQuiz(){
+submitQuiz();
 
     score=0;
 
@@ -382,13 +381,10 @@ const countdown=setInterval(function(){
     String(minutes).padStart(2,"0")+":"+
     String(seconds).padStart(2,"0");
 
-    if(timeLeft<=0){
-
-        clearInterval(countdown);
-
-        function submitQuiz()}
-
-score=0;
+    if (timeLeft <= 0) {
+    clearInterval(countdown);
+    submitQuiz();
+}
 
 let reviewHTML="<h2>Quiz Result</h2>";
 
