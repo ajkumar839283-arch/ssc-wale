@@ -386,7 +386,7 @@ const countdown=setInterval(function(){
 
         clearInterval(countdown);
 
-        function submitQuiz(){
+        function submitQuiz()}
 
 score=0;
 
