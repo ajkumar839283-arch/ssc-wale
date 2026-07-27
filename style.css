@@ -350,3 +350,31 @@ header{
     padding:20px;
 }
 }
+.container{
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+    padding:0 15px;
+}
+
+.table{
+    width:100%;
+    border-collapse:collapse;
+    overflow-x:auto;
+}
+
+.table th,
+.table td{
+    padding:12px;
+    font-size:16px;
+}
+
+@media(max-width:768px){
+
+.table{
+    display:block;
+    overflow-x:auto;
+    white-space:nowrap;
+}
+
+}
