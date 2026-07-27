@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Choose Quiz | SSC WALA</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#4f46e5,#2563eb,#0ea5e9);
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+}
+
+.container{
+width:100%;
+max-width:1100px;
+}
+
+.title{
+text-align:center;
+color:#fff;
+margin-bottom:40px;
+}
+
+.title h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+.title p{
+font-size:18px;
+opacity:.9;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+gap:25px;
+}
+
+.card{
+background:#fff;
+border-radius:18px;
+padding:30px 20px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,.2);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.icon{
+font-size:55px;
+margin-bottom:15px;
+}
+
+.card h2{
+margin-bottom:12px;
+}
+
+.card p{
+font-size:15px;
+color:#555;
+margin-bottom:20px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 22px;
+border-radius:8px;
+text-decoration:none;
+font-weight:600;
+color:#fff;
+}
+
+.gk .btn{
+background:#16a34a;
+}
+
+.maths .btn{
+background:#2563eb;
+}
+
+.reasoning .btn{
+background:#7c3aed;
+}
+
+.english .btn{
+background:#ea580c;
+}
+
+.btn:hover{
+opacity:.9;
+}
+
+@media(max-width:768px){
+
+.title h1{
+font-size:32px;
+}
+
+.title p{
+font-size:16px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="title">
+
+<h1>📚 Choose Your Quiz</h1>
+
+<p>Select your subject and start practicing now.</p>
+
+</div>
+
+<div class="cards">
+
+<div class="card gk">
+
+<div class="icon">🌍</div>
+
+<h2>GK / GS Quiz</h2>
+
+<p>History, Geography, Polity, Science & Current Affairs.</p>
+
+<a href="gs.html" class="btn">Start Quiz</a>
+
+</div>
+
+<div class="card maths">
+
+<div class="icon">➗</div>
+
+<h2>Maths Quiz</h2>
+
+<p>Practice SSC Maths Questions with Timer.</p>
+
+<a href="maths.html" class="btn">Start Quiz</a>
+
+</div>
+
+<div class="card reasoning">
+
+<div class="icon">🧠</div>
+
+<h2>Reasoning Quiz</h2>
+
+<p>Logical & Analytical Reasoning Practice.</p>
+
+<a href="reasoning.html" class="btn">Start Quiz</a>
+
+</div>
+
+<div class="card english">
+
+<div class="icon">📖</div>
+
+<h2>English Quiz</h2>
+
+<p>Grammar, Vocabulary & Comprehension Practice.</p>
+
+<a href="english.html" class="btn">Start Quiz</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
