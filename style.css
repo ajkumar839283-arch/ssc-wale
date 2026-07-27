@@ -378,3 +378,16 @@ header{
 }
 
 }
+.calendar{
+    width:100%;
+    margin:20px 0;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.calendar .table{
+    width:100%;
+    display:block;
+    overflow-x:auto;
+    white-space:nowrap;
+}
