@@ -405,3 +405,7 @@ header{
 .table{
     min-width:700px;
 }
+.container p{
+    font-size:20px;
+    line-height:1.9;
+    }
