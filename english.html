@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SSC English Quiz | SSC Exam Hub</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+<h2>SSC Exam Hub</h2>
+</header>
+
+<div class="quiz-container">
+
+<div class="quiz-header">
+
+<h1>SSC English Quiz</h1>
+
+<p>25 Questions | 25 Minutes | 1 Mark Each</p>
+
+<div class="timer">
+Time Left:
+<span id="timer">25:00</span>
+</div>
+
+<div class="progress">
+Question <span id="currentQuestion">1</span> of 25
+</div>
+
+</div>
+
+<div class="question-box">
+
+<div class="question" id="question">
+Question will appear here...
+</div>
+
+<div id="options"></div>
+
+</div>
+
+<div class="buttons">
+
+<button onclick="previousQuestion()">Previous</button>
+
+<button onclick="nextQuestion()">Next</button>
+
+<button onclick="submitQuiz()">Submit Quiz</button>
+
+</div>
+
+<div id="result" style="display:none;">
+
+<h2>Quiz Completed</h2>
+
+<div id="score"></div>
+
+</div>
+
+</div>
+
+<script src="english.js"></script>
+
+</body>
+  </html>
